@@ -1,0 +1,175 @@
+/* RESPONSIVE */
+
+@media (max-width: 1314px) {
+
+    .info{
+        margin: 50px 0 50px 0;
+    }
+
+    .buttons__button a{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 1105px) {
+
+    .buttons__button a{
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 999px) {
+
+    .hamburger{
+        display: block;
+    }
+
+    .menuppal ul{
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
+    .nav img{
+        width: 140px;
+    }
+
+    .nav ul li a{
+        font-size: 35px;
+    }
+
+    .link{
+        display: none;
+    }    
+
+    .info{
+        flex-direction: column;
+    }
+    
+    .info .description{
+        width: 100%;
+        padding: 0;
+    }
+
+    .info .equipo{
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .info .description .description__title h1{
+        text-align: center;
+    }
+
+    .info .description .description__text{
+        margin: 25px auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .info .description .description__redes{
+        text-align: center;
+    }
+
+    .equipo h1{
+        text-align: center;
+    }
+
+    .equipo .equipo__discord .equipo__discord__card{
+        margin: 0 10px;
+    }
+
+    .buttons_group{
+        width: 100%;
+    }
+
+    .sellers .forpc{
+        flex-direction: column;
+    }
+
+    .forpc ul li {
+        justify-content: center;
+    }
+
+    .sellers .forpc .forpc__panel{
+        width: 100%;
+        padding: 0 0 40px 0;
+    }
+
+    .sellers .forpc__images{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .sellers .forpc .forpc__panel{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .forpc__images .card__image--modifiquer{
+        text-align: center;
+    }
+
+    .sellers .forpc .equipo__images{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 837px){
+
+    .nav img{
+        width: 120px;
+    }
+
+    .wsp__group .wsp__button{
+        width: 100%;
+    }
+
+    .pricepanel .pricepanel__group{
+        flex-direction: column;
+    }
+
+    .pricepanel .forlife {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .pricepanel--modifiquer{
+        flex-direction: column;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 770px) {
+    
+    .info .description .description__text{
+        width: 100%;
+    }
+
+    .buttons_group{
+        flex-direction: column;
+    }
+
+    .buttons__button{
+        margin: 15px 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .nav img{
+        width: 100px;
+    }
+
+    .sellers .forpc__images img{
+        width: 100%;
+    }
+
+}
